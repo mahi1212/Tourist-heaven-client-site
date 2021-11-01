@@ -1,0 +1,12 @@
+.footer{
+    background-color: #0b0b3f;
+    padding: 2rem 5rem;
+    color: #fff;
+}
+.footer .legal a{
+    color: white;
+    text-decoration: none;
+}
+.footer .legal a:hover{
+    text-decoration: underline;
+}

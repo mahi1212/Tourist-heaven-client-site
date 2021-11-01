@@ -1,0 +1,54 @@
+.nav-style{
+    background-color: cadetblue;
+    padding: 1rem 0;
+}
+.brand {
+    font-weight: 700;
+}
+
+.style {
+    color: #fff;
+    padding: 5px 10px;
+    background-color: #05063d;
+    border-radius: 5px 20px;
+    margin: 5px 10px;
+    border: none;
+    outline: none;
+}
+
+.login-btn {
+    background-color: #000;
+    color: #fff;
+    padding: 10px 25px;
+    margin-left: 2rem;
+    border-radius: 20px 5px;
+}
+
+.style:hover {
+    color: #fff;
+    background-color: blueviolet;
+    transition: all 0.2s;
+}
+
+.selected{
+    color: #fff;
+    background-color: blueviolet;
+}
+
+/* resposive design */
+@media screen and (max-width: 700px) {
+    .style {
+        color: #05063d;
+        background-color: transparent;
+        margin: 0 -2rem;
+        padding: 5px 0 0 1.3rem;
+        width: 100%;
+    }
+
+    .login-btn {
+        background-color: transparent;
+        color: #000;
+        margin-left: -2rem;
+        margin-top: 10px;
+    }
+}

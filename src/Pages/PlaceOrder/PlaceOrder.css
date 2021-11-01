@@ -1,0 +1,25 @@
+.full-form h2{
+    text-align: center;
+    text-transform: uppercase;
+    padding: 10px 0;
+}
+
+.form-design{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    max-width: 400px;
+    padding: 5rem;
+    border-radius: 20px;
+    margin: 0 auto;
+}
+
+.form-design input, textarea{
+    border: 1px solid slateblue;
+    padding: 5px 10px;
+    font-size: 20px;
+    margin-top: 5px;
+    width: 300px;
+    border-radius: 5px;
+}
