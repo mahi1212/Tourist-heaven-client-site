@@ -1,16 +1,16 @@
 import React, { useEffect, useState } from 'react';
 
 const MyOrder = () => {
-    const [orders, setOrders] = useState([])
+    const [service, setService] = useState([])
     useEffect(() => {
-        fetch('https://fierce-hamlet-00780.herokuapp.com/myOrders')
+        fetch('https://lit-brushlands-74039.herokuapp.com/myorder')
             .then(res => res.json())
-            .then(data => setOrders(data))
+            .then(data => setService(data))
     }, [])
     return (
         <div className='full-form'>
             <h2>Your Order</h2>
-            name : {orders.name}
+            name : {service.serviceName}
         </div>
     );
 };
