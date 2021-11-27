@@ -3,7 +3,7 @@ import { Button, Card, Col } from 'react-bootstrap';
 import { NavLink } from 'react-router-dom';
 
 const Service = (props) => {
-    const { id, name, price, description, img } = props.service;
+    const { _id, name, price, description, img } = props.service;
     return (
         <div>
             <Col>
@@ -17,7 +17,7 @@ const Service = (props) => {
                         <Card.Text>Trip fee: {price} $
                         <p className='text-primary'>We provide trip by Air</p>    
                         </Card.Text>
-                        <NavLink to= {`/placeOrder/${id}`} ><Button className='btn-success'>Book now {name} trip</Button></NavLink>
+                        <NavLink to= {`/placeOrder/${_id}`} ><Button className='btn-success'>Book now {name} trip</Button></NavLink>
                     </Card.Body>
                 </Card>
             </Col>
