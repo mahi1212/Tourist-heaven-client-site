@@ -1,4 +1,4 @@
-# React App Name : TouristHeaven
+# React App Name : Tourist Heaven
 Porpose is : 
 <li>Users can make order to book a trip</li>
                 <li>Users have to login to make order</li>
