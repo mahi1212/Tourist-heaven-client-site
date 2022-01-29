@@ -23,9 +23,9 @@ const Header = () => {
                             {user.displayName && <NavLink to="/myOrder" className='fs-5 fw-bold text-decoration-none style' activeClassName="selected">
                                 Your Order
                             </NavLink>}
-                            <NavLink to="/manageOrder" className='fs-5 fw-bold text-decoration-none style' activeClassName="selected">
+                            {/* <NavLink to="/manageOrder" className='fs-5 fw-bold text-decoration-none style' activeClassName="selected">
                                 Manage Order
-                            </NavLink>
+                            </NavLink> */}
                             <NavLink to="/newService" className='fs-5 fw-bold text-decoration-none style' activeClassName="selected">
                                 Add New Service
                             </NavLink>
